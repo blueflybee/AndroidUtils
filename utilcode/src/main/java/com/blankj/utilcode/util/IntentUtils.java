@@ -229,6 +229,8 @@ public final class IntentUtils {
         return intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_ACTIVITY_NEW_TASK);
     }
 
+
+
 //    /**
 //     * 获取选择照片的Intent
 //     *
