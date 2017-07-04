@@ -15,7 +15,7 @@ import java.io.File;
  *     version: 1.0
  * </pre>
  */
-
+// TODO: 17-7-4 test file
 public class OpenFileUtils {
     /**
      * 打开文件
@@ -45,6 +45,7 @@ public class OpenFileUtils {
      * @param context
      * @param file
      */
+    // TODO: 17-7-4 test
     public static void openPicture(Context context, File file) {
         Intent intent = new Intent("android.intent.action.VIEW");
         intent.addCategory("android.intent.category.DEFAULT");
